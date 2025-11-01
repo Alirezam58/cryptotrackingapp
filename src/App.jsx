@@ -1,13 +1,20 @@
+import Footer from "./components/ui/Footer";
+import Navbar from "./components/ui/Navbar";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello
-        </p>
-      </header>
+    <div>
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Wrapper */}
+      <div className="wrapper">
+        Wrapper
+      </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
