@@ -6,7 +6,9 @@ function Navbar() {
   const btnToggleRef = useRef();
 
   const toggleMenu = () => {
-    btnToggleRef.current.click();
+    if(window.innerWidth < 992){
+      btnToggleRef.current.click();
+    }
   }
 
   return (
@@ -35,10 +37,10 @@ function Navbar() {
           <Link className="nav-link active" to="/about">About Us</Link>
         </li>
         <li className="nav-item" onClick={toggleMenu}>
-          <Link className="nav-link active" to="/faq">FAQ</Link>
+          <Link className="nav-link active" to="/contact">Contact Us</Link>
         </li>
         <li className="nav-item" onClick={toggleMenu}>
-          <Link className="nav-link active" to="/contact">Contact Us</Link>
+          <Link className="nav-link active" to="/faq">FAQ</Link>
         </li>
       </ul>
     </div>

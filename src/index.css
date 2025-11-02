@@ -26,3 +26,17 @@
   background-color: #f1f1f1;
   color: #333;
 }
+
+.aboutus-img{
+  width: 450px;
+  height: 450px;
+}
+
+.aboutus-text{
+  text-align: justify;
+}
+
+.contact-img{
+  width: 500px;
+  height: 200px;
+}
