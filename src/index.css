@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.wrapper {
+  min-height: calc(100vh - 116px);
+}
+
+.navbar-logo-icon {
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+  color: blue;
+}
+
+.navbar-logo-text {
+  font-size: 1.2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #f1f1f1;
+  color: #333;
+}
